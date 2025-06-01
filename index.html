@@ -12,24 +12,90 @@
 <body>
 
 <form action="https://formsubmit.co/nikolkzgazviani2011@gmail.com" method="POST">
-  <h3>1. რა არის HTML?</h3>
-  <label><input type="radio" name="question1" value="პროგრამული ენა"> პროგრამული ენა</label><br>
-  <label><input type="radio" name="question1" value="მარკირების ენა"> მარკირების ენა</label><br>
+  <label>შეიყვანე შენი სახელი:</label><br>
+  <input class="name" type="text" name="სახელი" required><br><br>
 
-  <h3>2. CSS რას აკეთებს?</h3>
-  <label><input type="radio" name="question2" value="სტილის ფორმირება"> სტილის ფორმირება</label><br>
-  <label><input type="radio" name="question2" value="მონაცემების შენახვა"> მონაცემების შენახვა</label><br>
+  <h3>1. რას ნიშნავს HTML?</h3>
+  <label><input type="radio" name="q1" value="HyperText Markup Language" required> HyperText Markup Language</label><br>
+  <label><input type="radio" name="q1" value="HighText Machine Language"> HighText Machine Language</label><br>
+  <label><input type="radio" name="q1" value="Hyperlink and Text Management Language"> Hyperlink and Text Management Language</label><br><br>
 
-  <h3>3. JavaScript-ს რისთვის ვიყენებთ?</h3>
-  <label><input type="radio" name="question3" value="ვებსაიტის დინამიკა"> ვებსაიტის დინამიკა</label><br>
-  <label><input type="radio" name="question3" value="სურათების ფორმატირება"> სურათების ფორმატირება</label><br>
+  <h3>2. რომელი ტეგით ვსვამ სურათს?</h3>
+  <label><input type="radio" name="q2" value="&lt;img&gt;" required> &lt;img&gt;</label><br>
+  <label><input type="radio" name="q2" value="&lt;image&gt;"> &lt;image&gt;</label><br>
+  <label><input type="radio" name="q2" value="&lt;pic&gt;"> &lt;pic&gt;</label><br><br>
 
-  <!-- დამხმარე პარამეტრები -->
+  <h3>3. რომელი ტეგია სათაურისთვის?</h3>
+  <label><input type="radio" name="q3" value="&lt;h1&gt;" required> &lt;h1&gt;</label><br>
+  <label><input type="radio" name="q3" value="&lt;header&gt;"> &lt;header&gt;</label><br>
+  <label><input type="radio" name="q3" value="&lt;title&gt;"> &lt;title&gt;</label><br><br>
+
+  <h3>4. როგორ ვსვამ ბმულს HTML-ში?</h3>
+  <label><input type="radio" name="q4" value="&lt;a&gt;" required> &lt;a&gt;</label><br>
+  <label><input type="radio" name="q4" value="&lt;link&gt;"> &lt;link&gt;</label><br>
+  <label><input type="radio" name="q4" value="&lt;href&gt;"> &lt;href&gt;</label><br><br>
+
+  <h3>5. როგორ ვქმნით აბზაცს?</h3>
+  <label><input type="radio" name="q5" value="&lt;p&gt;" required> &lt;p&gt;</label><br>
+  <label><input type="radio" name="q5" value="&lt;text&gt;"> &lt;text&gt;</label><br>
+  <label><input type="radio" name="q5" value="&lt;paragraph&gt;"> &lt;paragraph&gt;</label><br><br>
+
+  <h3>6. რომელი ტეგია ხაზის გადასატანად?</h3>
+  <label><input type="radio" name="q6" value="&lt;br&gt;" required> &lt;br&gt;</label><br>
+  <label><input type="radio" name="q6" value="&lt;break&gt;"> &lt;break&gt;</label><br>
+  <label><input type="radio" name="q6" value="&lt;enter&gt;"> &lt;enter&gt;</label><br><br>
+
+  <h3>7. HTML ფაილი როგორ მთავრდება?</h3>
+  <label><input type="radio" name="q7" value=".html" required> .html</label><br>
+  <label><input type="radio" name="q7" value=".htm"> .htm</label><br>
+  <label><input type="radio" name="q7" value=".web"> .web</label><br><br>
+
+  <h3>8. რა ტეგით ვსვამ სიას?</h3>
+  <label><input type="radio" name="q8" value="&lt;ul&gt;" required> &lt;ul&gt;</label><br>
+  <label><input type="radio" name="q8" value="&lt;list&gt;"> &lt;list&gt;</label><br>
+  <label><input type="radio" name="q8" value="&lt;li&gt;"> &lt;li&gt;</label><br><br>
+
+  <h3>9. რომელი ტეგი გამოიყენება ცხრილის შესაქმნელად?</h3>
+  <label><input type="radio" name="q9" value="&lt;table&gt;" required> &lt;table&gt;</label><br>
+  <label><input type="radio" name="q9" value="&lt;tr&gt;"> &lt;tr&gt;</label><br>
+  <label><input type="radio" name="q9" value="&lt;td&gt;"> &lt;td&gt;</label><br><br>
+
+  <h3>10. როგორ ვსვამ კომენტარს HTML-ში?</h3>
+  <label><input type="radio" name="q10" value="&lt;!-- კომენტარი --&gt;" required> &lt;!-- კომენტარი --&gt;</label><br>
+  <label><input type="radio" name="q10" value="// კომენტარი"> // კომენტარი</label><br>
+  <label><input type="radio" name="q10" value="/* კომენტარი */"> /* კომენტარი */</label><br><br>
+
+  <h3>11. HTML დოკუმენტის ძირითადი სტრუქტურა იწყება:</h3>
+  <label><input type="radio" name="q11" value="&lt;!DOCTYPE html&gt;" required> &lt;!DOCTYPE html&gt;</label><br>
+  <label><input type="radio" name="q11" value="&lt;doctype&gt;"> &lt;doctype&gt;</label><br>
+  <label><input type="radio" name="q11" value="&lt;html type='text'&gt;"> &lt;html type='text'&gt;</label><br><br>
+
+  <h3>12. რომელი ტეგით ვსვამ ტექსტს გვერდზე?</h3>
+  <label><input type="radio" name="q12" value="&lt;div&gt;" required> &lt;div&gt;</label><br>
+  <label><input type="radio" name="q12" value="&lt;txt&gt;"> &lt;txt&gt;</label><br>
+  <label><input type="radio" name="q12" value="&lt;style&gt;"> &lt;style&gt;</label><br><br>
+
+  <h3>13. რომელი ატრიბუტი მიუთითებს სურათის წყაროს?</h3>
+  <label><input type="radio" name="q13" value="src" required> src</label><br>
+  <label><input type="radio" name="q13" value="href"> href</label><br>
+  <label><input type="radio" name="q13" value="link"> link</label><br><br>
+
+  <h3>14. რა ტეგი განსაზღვრავს დოკუმენტის თავს?</h3>
+  <label><input type="radio" name="q14" value="&lt;head&gt;" required> &lt;head&gt;</label><br>
+  <label><input type="radio" name="q14" value="&lt;header&gt;"> &lt;header&gt;</label><br>
+  <label><input type="radio" name="q14" value="&lt;top&gt;"> &lt;top&gt;</label><br><br>
+
+  <h3>15. რა ტეგით მთავრდება HTML დოკუმენტი?</h3>
+  <label><input type="radio" name="q15" value="&lt;/html&gt;" required> &lt;/html&gt;</label><br>
+  <label><input type="radio" name="q15" value="&lt;/body&gt;"> &lt;/body&gt;</label><br>
+  <label><input type="radio" name="q15" value="&lt;/end&gt;"> &lt;/end&gt;</label><br><br>
+
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
 
   <button type="submit">გაგზავნა</button>
 </form>
+
     
 </body>
 </html>

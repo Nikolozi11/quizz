@@ -2,10 +2,15 @@ body {
   font-family: sans-serif;
   padding: 30px;
   background-color: #f3f3f3;
+  background-image: url(./img/logoakademi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 form {
-  background: white;
+  background: rgba(255, 255, 255, 0.619);
   padding: 20px;
   border-radius: 10px;
   max-width: 400px;
@@ -13,7 +18,28 @@ form {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-input, button {
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex-direction: row-reverse;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+
+  input[type="radio"] {
+    margin: 0;
+  }
+
+.name {
+  width: 100%;
+  color: blue;
+}  
+
+button {
+  background-color: rgb(25, 137, 25);
+  color: white;
   display: block;
   width: 100%;
   margin-top: 10px;
