@@ -41,8 +41,23 @@ button {
   background-color: rgb(25, 137, 25);
   color: white;
   display: block;
+  border: none;
+  border-radius: 10px;
   width: 100%;
   margin-top: 10px;
   padding: 10px;
   font-size: 16px;
+  transition: 0.3s;
+  margin: auto;
+}
+
+button:hover {
+  background-color: rgb(220, 134, 48);
+  height: 50px;
+}
+
+button:active {
+  background-color: rgba(220, 134, 48, 0.568);
+  width: 90%;
+  height: 40px;
 }
